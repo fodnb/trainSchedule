@@ -1,0 +1,116 @@
+* {
+	
+}
+
+
+	
+#title {
+	font-size: 48px;
+	/*max-resolution: res;n: 0;*/
+	padding: 0;
+	
+	
+background: -webkit-linear-gradient(black, blue, green, blue, black);
+}
+#westeros {
+	/*text-shadow: 3px 3px */
+	font-style: "COMIC SANS MS";	
+	margin: 0;
+	margin-top: 5%;
+
+}
+
+body{
+	box-sizing: border-box;
+	margin: 0 auto;
+	font-style: times;
+	font-style: "COMIC SANS MS";	
+
+}
+
+#adventure {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+.row {
+
+	overflow: auto;
+	border-radius: 40px;
+	border: 8px solid grey;	
+	border-style: double;
+	/*border: solid 1px #4aaaa5;*/
+	padding: 1%;
+	height: 33%;
+
+}
+
+div{
+	margin: 1%;
+
+	/*border: 2px solid black;*/
+	/*background: lightblue;*/
+	/*border: 1px solid black;*/
+	
+}
+
+h1 {
+	/*font-style: fantasy;*/
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-align: center;
+	padding: 5%;
+
+}
+
+.form-control {
+
+	margin: 1% 0;
+	border: 1px solid black;
+}
+
+form {
+	font-weight: 700;
+
+	padding: 2%;
+}
+
+input {
+	width: 100%;
+}
+
+th, td, tr {
+	width: 23%;
+	text-align: center;
+	padding-right: 10%;
+
+}
+
+#table { 
+	border: solid 2px solid grey;
+ }
+
+#thtrain {
+	margin: 0;
+	padding: 0;
+	width: 23%;
+}
+#tSchedule {
+	width: 100%;
+
+}
+
+
+#footer {
+	position: static;
+	bottom: 0;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 6px;
+	color: blue;
+
+
+}

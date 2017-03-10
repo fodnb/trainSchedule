@@ -1,0 +1,108 @@
+ * {
+     text-transform: uppercase;
+     margin: 0;
+ }
+ 
+ #title {
+     align-content: center;
+     padding: 0;
+     width: 98%;
+     margin: 0 auto;
+     color: darkblue;
+     text-shadow: 3px 3px 3px black;
+     font-weight: 700;
+     background: -webkit-linear-gradient(left bottom, black, blue, green, blue, black);
+     border-radius: 40px;
+ }
+ 
+ #westeros {
+     font-size: 64px;
+     font-weight: 700;
+     margin: 0;
+     margin-top: 5%;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+ }
+ 
+ body {
+     font-style: times;
+ }
+ 
+ #adventure {
+     border: 0;
+     margin: 1% 0;
+     padding: 0;
+     text-align: center;
+ }
+ 
+ .row {
+     overflow: auto;
+     padding: 1%;
+     height: 33%;
+ }
+ 
+ h1 {
+     font-weight: 700;
+     letter-spacing: 1.5px;
+     text-align: center;
+     padding: 5%;
+ }
+ 
+ h3 {
+     text-align: center;
+     text-decoration: underline;
+     font-size: 24px;
+     text-shadow: 1px 1px 1px grey;
+ }
+ 
+ .form-control {
+     margin: 1% 0;
+     border: 1px solid black;
+ }
+ 
+ form {
+     font-weight: 700;
+     padding: 2%;
+ }
+ 
+ input {
+     width: 100%;
+ }
+ 
+ th,
+ td,
+ tr {
+     width: 23.3%;
+     text-align: center;
+     border: 1px solid grey;
+ }
+ 
+ #table {
+     border: solid 2px solid grey;
+ }
+ 
+ #currentTime {
+     text-align: center;
+     color: white;
+     padding-bottom: 2%;
+     font-weight: 700;
+     letter-spacing: 3px;
+     word-spacing: 10px;
+ }
+ 
+ #thtrain {
+     text-align: center;
+ }
+ 
+ #tSchedule {
+     width: 100%;
+     text-transform: uppercase;
+ }
+ 
+ #footer {
+     position: static;
+     bottom: 0;
+     text-align: center;
+     font-weight: 700;
+     color: darkblue;
+     font-size: 14px;
+ }

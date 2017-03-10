@@ -1,54 +1,65 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<!-- saved from url=(0083)file:///C:/Users/fodnb/RutgersBootCamp/weekseven/Homework/trainSchedule/index.html? -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
+    
     <title>WESTEROS TRAIN SCHEDULE</title>
-    <link rel="icon" type="image/bmp" href="assets/images/favicon2.bmp">
+    <link rel="icon" type="image/bmp" href="file:///C:/Users/fodnb/RutgersBootCamp/weekseven/Homework/trainSchedule/assets/images/favicon2.bmp">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./WESTEROS TRAIN SCHEDULE_files/style.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 </head>
 
 <body>
-    <div class="row" id="title">
-        <div id="innerJ">
-            <h1 id="westeros"> WESTEROS TRAIN SCHEDULE </h1>
-            <h2 id="currentTime"></h2>
-        </div>
-    </div>
-    <div class="row" id="adventure">
-        <div class="col-lg-12">
-            <h6 id="adventure"> <strong>For Adventurers, Treasure Seekers or those just trying to get around!</strong></h6>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Current Train Schedule</h3>
-                </div>
-                <div class="panel-body" id="tSchedule">
-                    <table id="tTable">
-                        <tr>
-                            <th id="thtrain"><strong>Train Name</strong></th>
-                            <th id="thtrain"><strong>Destination</strong></th>
-                            <th id="thtrain"><strong>Frequency</strong> (min)</th>
-                            <th id="thtrain"><strong>Next Arrival</strong></th>
-                            <th id="thtrain"><strong>Minutes Away</strong></th>
-                        </tr>
-                    </table>
-                </div>
+    <div class="row jumbotron" id="title">
+        <h1 id="westeros"> WESTEROS TRAIN SCHEDULE </h1>
+      
+
+        <h2 id="currentTime"> 
+    </h2></div>
+    	<div class="row" id="adventure">
+    	<div class="col-lg-12">
+	 	<h6 id="adventure"> <strong>For Adventurers, Treasure Seekers or those just trying to get around!</strong></h6>
+		</div>
+		</div>
+		<div class="row">
+        <div class="col-lg-12 col-md-4">
+
+          <div class="panel panel-default">
+
+            <div class="panel-heading">
+
+              <h3 class="panel-title">Current Train Schedule</h3>
+
             </div>
+
+            <div class="panel-body" id="tSchedule">
+			<table id="tTable">
+				<tbody><tr>
+					<th id="thtrain"><strong>Train Name</strong></th>
+					<th id="thtrain"><strong>Destination</strong></th>
+					<th id="thtrain"><strong>Frequency</strong> (min)</th>
+					<th id="thtrain"><strong>Next Arrival</strong></th>
+					<th id="thtrain"><strong>Minutes Away</strong></th>
+				</tr>
+			</tbody></table>
+            </div>
+
+          </div>
+
         </div>
-    </div>
+		</div>
+
+
+
+
+
+
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">Add Train</h3>
@@ -59,40 +70,57 @@
                             <label for="train-name">Train Name
                                 <br>
                             </label>
-                            <input class="form-control" id="trainName" type="text" placeholder="R&R RAILROAD">
+                            <input class="form-control" id="trainName" type="text" placeholder="R&amp;R RAILROAD">
                         </div>
+
+
                         <div class="form-group">
                             <label for="destination">Destination
                                 <br>
                             </label>
                             <input class="form-control" id="destination" type="text" placeholder="WINTERFELL">
                         </div>
+
+
                         <div class="form-group">
-                            <label for="first-train">First Train Time (HH:mm)
+                            <label for="first-train">First Train Time (HH:mm - military time)
                                 <br>
                             </label>
                             <input class="form-control" id="firstTrain" type="time">
                         </div>
+
+
                         <div class="form-group">
                             <label for="destination">Frequency
                                 <br>
                             </label>
                             <input class="form-control" id="frequency" type="number" placeholder="20 MINUTES">
                         </div>
+
+
                         <button class="btn btn-primary" id="submit" type="submit">Submit</button>
+
+
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row" id="footer">
-        <div class="col-lg-12 col-md-12">
-            <footer>
-                &COPY DANIEL MCGHEE 2017
-            </footer>
-        </div>
-    </div>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
-</body>
 
-</html>
+
+    <div class="row" id="footer">
+    	<div class="col-lg-12 col-md-12">
+		<footer>
+	
+		© DANIEL MCGHEE 2017
+
+		</footer>
+		</div>
+
+    </div>
+
+      <script type="text/javascript" src="./WESTEROS TRAIN SCHEDULE_files/app.js.download"></script>
+
+
+
+</body></html>
